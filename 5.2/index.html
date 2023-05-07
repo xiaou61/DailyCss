@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  .kodfun-galeri{
+    display: flex;
+    height: 20rem;
+    gap: 1em;
+  }
+  .kodfun-galeri>div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25,.4,.45,1.4);
+  }
+  .kodfun-galeri>div:hover{
+    flex:5
+  }
+</style>
+<body>
+
+  <div class="kodfun-galeri">
+
+    <div style="background-image: url('img1.jpg')"></div>
+    <div style="background-image: url('img2.jpg')"></div>
+    <div style="background-image: url('img3.jpg')"></div>
+    <div style="background-image: url('img4.jpg')"></div>
+    <div style="background-image: url('img5.jpg')"></div>
+
+  </div>
+</body>
+</html>
